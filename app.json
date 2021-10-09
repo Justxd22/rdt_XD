@@ -1,0 +1,18 @@
+{
+  "name": "rdt_XD",
+  "description": "telegram bot to scrape reddit for images",
+  "repository": "https://github.com/Justxd22/rdt_XD",
+  "logo": "https://telegra.ph/file/2110febb66fff9c700d08.jpg",
+  "keywords": [
+    "rdt","XD"
+  ],
+  "env":{
+  "token": {
+    "required": true,
+    "description": "Your telegram bot token get from bot father"
+  },
+  "HEROKU_APP_NAME": {
+    "required": true,
+    "description": "Your app name Required for the webhook to work"
+  }
+}}
